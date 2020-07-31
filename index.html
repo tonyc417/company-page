@@ -11,44 +11,41 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="wrapper">
-            <a href="/">
-                <img src="./images/companyLogo.jpg" alt="logo">
-            </a>
-            
-            <button id="submenu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <ul class="menu-left">
+    <header>
+        <h1 class="logo">Neko Solutions</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul class="mx-5">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-        </div>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
     </header>
 
 
-    <div id="frontPage">
-        <div class="row">
-            <div class="col-md">
-                <h1 class="introFront mx-5 my-5">Creative Designs to grow your Business</h1>
-                <p class="mx-5">It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English.</p>
-                <button type="button" class="btnColor btn mx-5">Learn More</button>
+        <div id="frontPage">
+            <div class="row">
+                <div class="col-md">
+                    <h1 class="introFront mx-5 my-5">Creative Designs to grow your Business</h1>
+                    <p class="mx-5">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.</p>
+                    <button type="button" class="btnColor btn mx-5">Learn More</button>
+                </div>
+                <div class="col-md">
+                    <img src="./images/frontSplash.png" alt="front picture">
+                </div>
             </div>
-            <div class="col-md">
-                <img src="./images/frontSplash.png" alt="front picture">
-            </div>
-        </div>
-        <script src="script.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
