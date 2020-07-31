@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Neko Solutions</title>
 </head>
+
 <body>
-    <div id="navbar">
-        <div class="logo">
-            <a href="">
-                <!-- <img src="./images/companyLogo.jpg" class="logo" alt="logo for website"> -->
+    <header id="header">
+        <div class="wrapper">
+            <a href="/">
+                <img src="./images/companyLogo.jpg" alt="logo">
             </a>
+            
+            <button id="submenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu-left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
-    </div>
+    </header>
 
-    <div class="main">
-        <ul>
-            <li><a href=""> Home</a></li>
-            <li><a href=""> About</a></li>
-            <li><a href=""> Services</a></li>
-            <li><a href=""> Pricing</a></li>
-            <li><a href=""> Our Work</a></li>
-            <li><a href=""> Contact</a></li>
-        </ul>
-    </div>
 
-    <div>
+    <div id="frontPage">
         <div class="row">
-            <div class="col-md introFront">
-                <h1>Creative Designs to grow your Business</h1>
+            <div class="col-md">
+                <h1 class="introFront mx-5 my-5">Creative Designs to grow your Business</h1>
+                <p class="mx-5">It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+                <button type="button" class="btnColor btn mx-5">Learn More</button>
             </div>
             <div class="col-md">
                 <img src="./images/frontSplash.png" alt="front picture">
             </div>
-    </div>
+        </div>
+        <script src="script.js"></script>
 </body>
+
 </html>
